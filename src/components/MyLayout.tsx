@@ -7,6 +7,7 @@ import {
 } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
 import React, { useState } from 'react';
+import logo from '../assets/logo.jpeg'
 
 const { Header, Sider, Content } = Layout;
 
@@ -16,9 +17,12 @@ const MyLayout = ({children}: any) => {
     return (
         <Layout
             style={{ width: "100vw", height: "100vh" }  /** style 属性用于撑开整个页面，可去掉该属性再对比查看页面 */}
+            id='components-layout-demo-custom-trigger'
         >
             <Sider trigger={null} collapsible collapsed={collapsed}>
-                <div className="logo" />
+                <div className="logo">
+                    {/* <img src={logo} alt='好大夫' /> */}
+                </div>
                 <Menu
                     theme="light"       /** 设置左侧菜单栏主题为 light，也可设置为 dark */
                     mode="inline"
