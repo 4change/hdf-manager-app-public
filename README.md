@@ -7,7 +7,7 @@
 
 ## 运行
 ```shell
-npm install 
+npm install         # 安装依赖
 
 npm run dev         # 以开发模式运行
 ```
