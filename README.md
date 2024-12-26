@@ -3,7 +3,7 @@
 [【2022版】react+antd搭建管理系统-医药平台](https://www.bilibili.com/video/BV12G411A7zR/?spm_id_from=333.999.0.0&vd_source=c3d8495d88f65a2b96d4425ebf1c4eaa)
 
 ## 源码
-前端源码：[hdf-manager-app-public](https://github.com/btc022003/hdf-manager-app-public)
+前端源码：[hdf-manager-app-public](https://github.com/btc022003/hdf-manager-app-public) \
 后端源码：[hdf-app-server](https://github.com/btc022003/hdf-app-server)
 
 ## 分支说明
