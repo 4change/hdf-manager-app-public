@@ -11,9 +11,9 @@
 }
 
 #components-layout-demo-custom-trigger .logo {
-    height: 32px;
-    margin: 16px;
-    background: rgba(255, 255, 255, 0.3);
+    /* height: 32px; */
+    /* margin: 16px; */
+    /* background: rgba(255, 255, 255, 0.3); */
 }
 
 .site-layout .site-layout-background {
@@ -26,8 +26,8 @@
 }
 
 /* 设置 logo 图片样式 */
-/* #components-layout-demo-custom-trigger .logo img {
+#components-layout-demo-custom-trigger .logo img {
     display: block;
     width: 50%;
     margin: 20px auto;
-} */
+}

@@ -21,7 +21,7 @@ const MyLayout = ({children}: any) => {
         >
             <Sider trigger={null} collapsible collapsed={collapsed}>
                 <div className="logo">
-                    {/* <img src={logo} alt='好大夫' /> */}
+                    <img src={logo} alt='好大夫' />
                 </div>
                 <Menu
                     theme="light"       /** 设置左侧菜单栏主题为 light，也可设置为 dark */
