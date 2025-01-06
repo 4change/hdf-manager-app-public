@@ -4,6 +4,7 @@ import {
     UploadOutlined,
     UserOutlined,
     VideoCameraOutlined,
+    DashboardOutlined
 } from '@ant-design/icons';
 import { Layout, Menu } from 'antd';
 import React, { useState } from 'react';
@@ -30,18 +31,43 @@ const MyLayout = ({children}: any) => {
                     items={[
                         {
                             key: '1',
-                            icon: <UserOutlined />,
-                            label: 'nav 1',
+                            icon: <DashboardOutlined />,
+                            label: '看板',
                         },
                         {
                             key: '2',
                             icon: <VideoCameraOutlined />,
-                            label: 'nav 2',
+                            label: '药品管理',
+                            children: [
+                                {
+                                    label: '药品分类',
+                                    key: '/admin/medicine_categories'
+                                },
+                                {
+                                    label: '药品信息',
+                                    key: '/admin/medicines'
+                                },
+                            ]
                         },
                         {
                             key: '3',
                             icon: <UploadOutlined />,
-                            label: 'nav 3',
+                            label: '文章管理',
+                            children: [
+                                {
+                                    label: '文章分类',
+                                    key: '/admin/article_categories'
+                                },
+                                {
+                                    label: '文章信息',
+                                    key: '/admin/articles'
+                                },
+                            ]
+                        },
+                        {
+                            key: '4',
+                            icon: <UserOutlined />,
+                            label: '会员信息',
                         },
                     ]}
                 />
